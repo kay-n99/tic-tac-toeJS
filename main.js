@@ -106,7 +106,7 @@ function win(){
             playerX.score++;
             document.querySelector(".scoreX").textContent = playerX.score;
             document.querySelectorAll(".result").forEach((p) =>{
-                p.textContent = "Player 1 Wins";
+                p.textContent = "Player X Wins";
                 p.style.cssText = "visibility: visible;";
             });
             
@@ -119,7 +119,7 @@ function win(){
             playerO.score++;
             document.querySelector(".scoreO").textContent = playerO.score;
             document.querySelectorAll(".result").forEach((p) =>{
-                p.textContent = "Player 2 Wins";
+                p.textContent = "Player O Wins";
                 p.style.cssText = "visibility: visible;";
             });
             
